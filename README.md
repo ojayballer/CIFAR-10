@@ -258,17 +258,15 @@ pip install tensorflow numpy pandas matplotlib
 
 
 ### 2. Clone Repository
-git clone https://github.com/yourusername/cifar10-dense-classification.git
-cd cifar10-dense-classification
-
-text
+git clone https://github.com/yourusername/CIFAR-10.git
+cd CIFAR-10
 
 ### 3. Run the Script
 python cifar10_classifier.py
 
 
 Or open the Jupyter Notebook:
-jupyter notebook cifar10_classification.ipynb
+jupyter notebook CIFAR-10.ipynb
 
 
 
