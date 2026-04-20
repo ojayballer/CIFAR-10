@@ -3,7 +3,7 @@
 A deep learning project that classifies images from the CIFAR-10 dataset into 10 categories using a dense (fully connected) neural network built with TensorFlow/Keras.
 This project achieves **40.3% accuracy** in 10 epochs  and demonstrates fundamental concepts in image preprocessing, neural network architecture, and why CNNs are superior for image tasks.
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements a feedforward neural network to classify 32×32 color images from the CIFAR-10 dataset into 10 different categories.
 
@@ -16,7 +16,7 @@ This project implements a feedforward neural network to classify 32×32 color im
 - **Final Test Accuracy:** 40.3%
 - **Final Test Loss:** ~2.5
 
-## 🎯 Model Performance
+##  Model Performance
 
 ### Overall Results
 - **Test Accuracy:** 40.3%
@@ -144,7 +144,7 @@ X_test_flattened_scaled = X_test_flattened / np.max(X_train_flattened)
 
 **Important Note:** Both train and test sets are scaled using the **training set's maximum value** to maintain consistency.
 
-## 🏷️ Understanding Label Encoding and Loss Functions
+## Understanding Label Encoding and Loss Functions
 
 ### Two Approaches for Multi-Class Classification
 
@@ -179,7 +179,7 @@ Position 3 = 1, rest = 0
 - `categorical_crossentropy` requires one-hot encoded labels
 - Using the wrong format will cause training errors
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Network Structure
 Input Layer: 3072 neurons (flattened 32×32×3 image)
@@ -224,7 +224,7 @@ text
 - Forces network to learn robust features
 - Improves generalization to test data
 
-## 📊 Confusion Matrix Analysis
+## Confusion Matrix Analysis
 
 The confusion matrix reveals detailed classification patterns and common errors:
 
@@ -270,7 +270,7 @@ jupyter notebook CIFAR-10.ipynb
 
 
 
-## 📦 Requirements
+##  Requirements
 
 tensorflow >= 2.0
 numpy >= 1.19
@@ -287,7 +287,7 @@ matplotlib==3.7.2
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 cifar10-dense-classification/
 ├── cifar10_classifier.ipynb # Main Jupyter notebook
@@ -299,7 +299,7 @@ cifar10-dense-classification/
 
 
 
-## 💡 Why Dense Networks Instead of CNNs?
+## Why Dense Networks Instead of CNNs?
 
 **Educational Purpose:**
 
